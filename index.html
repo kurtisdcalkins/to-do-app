@@ -7,27 +7,29 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>To-do App</title>
+        <title>Task List</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./reset.css" media="screen">
-        <link rel="stylesheet" href="./styles.css" media="screen">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <section class="to-do-list">
-            <p>Start Laundry</p>
-            <p>Do the dishes</p>
-            <p>Make breakfast</p>
-            <p>Organize garage</p>
-            <p>Mount tv</p>
-            <p>Donate clothes</p>
-        </section>
-        <section class="completed">
-            <p>Get gift for Sheryl</p>
-            <p>Change oil in car</p>
-            <p>Take dog to vet</p>
-        </section>
+        <main>
+            <section class="add-task">
+                <h1 id="title">Task List</h1>
+                <form class="task-form">
+                    <input 
+                    type="text"
+                    id="new-task-input"
+                    placeholder="Type in your task..."/>
+                    <input type="submit" value="Add Task">
+                </form>                
+            </section>
+            <section class="task-list">
+                <h2>Tasks</h2>
+            </section>
+        </main>
         
-        <script src="" async defer></script>
+        <script src="./script.js" async defer></script>
     </body>
 </html>
