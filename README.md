@@ -4,3 +4,5 @@
 - [Codecademy.com](https://www.codecademy.com/learn/paths/front-end-engineer-career-path)
 - [Freshman](https://freshman.tech/todo-list/#render-the-todo-items)
 - [Tyler Potts Video](https://www.youtube.com/watch?v=MkESyVB4oUw)
+- [Checkbox Styling](https://www.html5canvastutorials.com/blog/2012/06/custom-form-radio-checkbox/)
+- 
